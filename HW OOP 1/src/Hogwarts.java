@@ -25,13 +25,13 @@ public class Hogwarts {
     public String toShowStudent() {
         return "Имя: " + this.name + "\nСила магии: " + this.magicPower + "\nДистанция трансгресии:" + this.transgressionDistance;
     }
-    public int sumOfCharacteristics(){
+    public int sumOfBaseCharacteristics(){
         int sum = this.magicPower + this.transgressionDistance;
         return sum;
     }
     public void toCompareAllStudents(Hogwarts other){
-        int sum1 = this.sumOfCharacteristics();
-        int sum2 = other.sumOfCharacteristics();
+        int sum1 = this.sumOfBaseCharacteristics();
+        int sum2 = other.sumOfBaseCharacteristics();
         if (sum1 > sum2) {
             System.out.println(this.name + " - более сильный студент, чем - " + other.name);
         } else {System.out.println(other.name + " - более сильный студент, чем - " + this.name);

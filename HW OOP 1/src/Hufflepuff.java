@@ -35,7 +35,7 @@ public class Hufflepuff extends Hogwarts {
         int sum = this.diligence + this.loyalty + this.honesty;
         return sum;
     }
-    public void toCompareHufflepuffStudents(Hogwarts other){
+    public void toCompareHufflepuffStudents(Hufflepuff other){
         int sum1 = this.sumOfCharacteristics();
         int sum2 = other.sumOfCharacteristics();
         if (sum1 > sum2) {

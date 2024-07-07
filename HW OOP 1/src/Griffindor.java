@@ -35,7 +35,7 @@ public class Griffindor extends Hogwarts {
         int sum = this.nobility + this.honor + this.courage;
         return sum;
     }
-    public void toCompareGriffindorStudents(Hogwarts other){
+    public void toCompareGriffindorStudents(Griffindor other){
         int sum1 = this.sumOfCharacteristics();
         int sum2 = other.sumOfCharacteristics();
         if (sum1 > sum2) {

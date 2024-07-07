@@ -41,7 +41,7 @@ public class Ravenclaw extends Hogwarts{
         int sum = this.intelligence + this.wisdom + this.wit + this.fullOfCreative;
         return sum;
     }
-    public void toCompareRavenclawStudents(Hogwarts other){
+    public void toCompareRavenclawStudents(Ravenclaw other){
         int sum1 = this.sumOfCharacteristics();
         int sum2 = other.sumOfCharacteristics();
         if (sum1 > sum2) {

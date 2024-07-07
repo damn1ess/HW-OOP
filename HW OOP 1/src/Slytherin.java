@@ -49,7 +49,7 @@ public class Slytherin extends Hogwarts {
         int sum = this.trickery + this.determination + this.ambitiousness + this.ingenuity + this.lustForPower;
         return sum;
     }
-    public void toCompareSlytherinStudents(Hogwarts other){
+    public void toCompareSlytherinStudents(Slytherin other){
         int sum1 = this.sumOfCharacteristics();
         int sum2 = other.sumOfCharacteristics();
         if (sum1 > sum2) {
